@@ -1,0 +1,73 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://172.28.128.4/iiif/collections/c1/manifest",
+	"attribution": "Tao test IIIF c1 collection",
+	"description": "This is the beautiful plaza of Tao's home",
+	"label": "City of Tao",
+	"@type": "sc:Manifest",
+	"thumbnail": "http://172.28.128.4/iiif/collections/c1/thumbnail",
+	"metadata": [{
+			"label": "title",
+			"value": "Tao test IIIF c1 collection"
+		},
+		{
+			"label": "Type of resource",
+			"value": [{
+				"@value": "dctypes:Image"
+			}]
+		},
+		{
+			"label": "published",
+			"value": [{
+				"@value": "Dublin, Ireland"
+			}]
+		},
+		{
+			"label": "created",
+			"value": "1838"
+		},
+		{
+			"label": "Date details",
+			"value": "The principal details have been corrected to 1847."
+		},
+		{
+			"label": "Scope and content",
+			"value": "Containing parts of St. Andrew&apos;s, St. Anne&apos;s, St. Bridget&apos;s, St. Mark&apos;s, St. Peter&apos;s, St. Werburgh&apos;s, St. John&apos;s, St. Michan&apos;s and St. Mary&apos;s Parishes and parts of South City, Royal Exchange, Trinity, Mansion House, Wood Quay, North City and Inns&apos; Quay Wards."
+		},
+		{
+			"label": "permalink",
+			"value": "doi:10.7925/drs1.ucdlib_40851"
+		},
+		{
+			"label": "genre",
+			"value": "map"
+		}
+	],
+	"sequences": [{
+		"@context": "http://iiif.io/api/presentation/2/context.json",
+		"@id": "http://172.28.128.4/iiif/collections/c1/sequences/normal",
+		"@type": "sc:Sequence",
+		"label": "Normal Sequence",
+		"viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+		"canvases": [{
+			"@id": "http://172.28.128.4/iiif/collections/c1/canvases/p1",
+			"@type": "sc:Canvas",
+			"label": "Canvas p1",
+			"images": [{
+				"resource": {
+					"format": "image/jpeg",
+					"@id": "http://172.28.128.4/iiif/collections/c1/images/2",
+					"@type": "dcTypes:Image",
+					"service": {
+						"@context": "http://iiif.io/api/image/1/context.json",
+						"@id": "http://172.28.128.4/iiif/collections/c1/images/2/info",
+						"profile": "http://library.stanford.…/conformance.html#level1"
+					}
+				},
+				"@id": "http://172.28.128.4/iiif/collections/c1/images/2/info",
+				"@type": "oa:Annotation"
+			}]
+		}]
+	}]
+}
