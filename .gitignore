@@ -1,0 +1,4 @@
+images/*
+!images/7aca4e08-b548-5fb5-bcd8-a48564da8a35/manifest.json
+**.png
+**.html
