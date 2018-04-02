@@ -1,11 +1,18 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://172.28.128.4/iiif/collections/c1/manifest",
+	"@id": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/manifest",
 	"attribution": "Tao test IIIF c1 collection",
 	"description": "This is the beautiful plaza of Tao's home",
 	"label": "City of Tao",
 	"@type": "sc:Manifest",
-	"thumbnail": "http://172.28.128.4/iiif/collections/c1/thumbnail",
+	"thumbnail": {
+	    "@id": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/full/80,100/0/default.jpeg",
+	    "service": {
+	      "@context": "http://iiif.io/api/image/2/context.json",
+	      "@id": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35",
+	      "profile": "http://iiif.io/api/image/2/level1.json"
+	    }
+  	},
 	"metadata": [{
 			"label": "title",
 			"value": "Tao test IIIF c1 collection"
@@ -45,28 +52,33 @@
 	],
 	"sequences": [{
 		"@context": "http://iiif.io/api/presentation/2/context.json",
-		"@id": "http://172.28.128.4/iiif/collections/c1/sequences/normal",
+		"@id": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/sequence/normal",
 		"@type": "sc:Sequence",
 		"label": "Normal Sequence",
 		"viewingDirection": "left-to-right",
         "viewingHint": "paged",
+        "startCanvas": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/canvas/p1",
 		"canvases": [{
-			"@id": "http://172.28.128.4/iiif/collections/c1/canvases/p1",
+			"@id": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/canvas/p1",
 			"@type": "sc:Canvas",
 			"label": "Canvas p1",
+			"width": 800,
+			"height": 400,
 			"images": [{
 				"resource": {
 					"format": "image/jpeg",
-					"@id": "http://172.28.128.4/iiif/collections/c1/images/2",
+					"@id": "http://172.28.128.4/iiif/items/d2f9e776-ed38-56c6-9722-c10102fc1111/full/full/0/default.jpeg",
 					"@type": "dcTypes:Image",
 					"service": {
-						"@context": "http://iiif.io/api/image/1/context.json",
-						"@id": "http://172.28.128.4/iiif/collections/c1/images/2/info",
-						"profile": "http://library.stanford.…/conformance.html#level1"
+						"@context": "http://iiif.io/api/image/2/context.json",
+						"@id": "http://172.28.128.4/iiif/items/d2f9e776-ed38-56c6-9722-c10102fc1111",
+						"profile": "http://iiif.io/api/image/2/level2.json"
 					}
 				},
-				"@id": "http://172.28.128.4/iiif/collections/c1/images/2/info",
-				"@type": "oa:Annotation"
+				"@id": "http://172.28.128.4/iiif/items/d2f9e776-ed38-56c6-9722-c10102fc1111/annotation",
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"on": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/canvas/p1"
 			}]
 		}]
 	}]
