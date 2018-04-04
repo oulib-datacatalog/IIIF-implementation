@@ -80,6 +80,38 @@
 				"motivation": "sc:painting",
 				"on": "http://172.28.128.4/iiif/collections/7aca4e08-b548-5fb5-bcd8-a48564da8a35/canvas/p1"
 			}]
+		},{
+			"@id":"http://dams.llgc.org.uk/iiif/3320640/canvas/3320643",
+            "@type":"sc:Canvas",
+            
+            "label":"[3]",
+            "height":7905,
+            "width":5826,
+             "images": [
+	            {
+	                "@id":"http://dams.llgc.org.uk/iiif/3320640/annotation/3320643.json",
+	                "@type":"oa:Annotation",
+	                "motivation":"sc:painting",
+	                "resource": {
+	                    "@id":"http://dams.llgc.org.uk/iiif/2.0/3320643/image/full/512,/0/default.jpg",
+	                    "@type":"dctypes:Image",
+	                    "format":"image/jpeg",
+	                    "service": {
+	                        "@context": "http://iiif.io/api/image/2/context.json",
+	                        "@id":"http://dams.llgc.org.uk/iiif/2.0/image/3320643",
+	                        "profile":"http://iiif.io/api/image/2/level1.json",
+	                        "height":7905,
+	                        "width":5826,
+	                        "tiles" : [{
+	                            "width": 256,
+	                            "scaleFactors": [ 1, 2, 4, 8, 16, 32 ]
+	                        }]
+	                    },
+	                    "height":7905,
+	                    "width":5826
+	                },
+	                "on":"http://dams.llgc.org.uk/iiif/3320640/canvas/3320643"
+	            }]
 		}]
 	}]
 }
